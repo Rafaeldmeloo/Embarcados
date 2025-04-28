@@ -17,7 +17,12 @@ model Registro {
   id          Int      @id @default(autoincrement())
   name        String
   coordenada  String?
-  timestamp   String   
+  createdAt DateTime @default(now())  
 
   @@map("registros")
+}
+
+model Objeto {
+  id    Int    @id @default(autoincrement())
+  name  String
 }

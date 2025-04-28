@@ -1,0 +1,41 @@
+.container {
+    background: white;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: sans-serif;
+  }
+  
+  .select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .button {
+    background-color: #ec4899;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #db2777;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 12px;
+    }
+  
+    .button {
+      font-size: 16px;
+    }
+  }
+  
